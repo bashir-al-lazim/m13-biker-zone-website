@@ -33,8 +33,8 @@
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pt-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M4 6h16M4 12h8m-8 6h16" />
@@ -97,7 +97,7 @@
                             <p class="text-base leading-6 text-[#000000CC] mt-5 mb-6">Amet minim mollit non deserunt
                                 ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                            <a class="btn bg-bike-primary text-white tracking-wide text-lg px-7">Purchase</a>
+                                <a class="btn text-lg font-medium border-2 hover:border-bike-primary hover:text-bike-primary text-white tracking-wide hover:bg-white bg-bike-primary px-7">Purchase</a>
                         </div>
                         <div class="lg:w-5/12">
                             <img src="images/slider/bike2.png" class="w-full" />
@@ -119,7 +119,7 @@
                             <p class="text-base leading-6 text-[#000000CC] mt-5 mb-6">Amet minim mollit non deserunt
                                 ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                            <a class="btn bg-bike-primary text-white tracking-wide text-lg px-7">Purchase</a>
+                                <a class="btn text-lg font-medium border-2 hover:border-bike-primary hover:text-bike-primary text-white tracking-wide hover:bg-white bg-bike-primary px-7">Purchase</a>
                         </div>
                         <div class="lg:w-5/12">
                             <img src="images/slider/bike3.png" class="w-full" />
@@ -135,15 +135,15 @@
             </div>
         </div>
     </header>
-    <main class="w-4/5 mx-auto my-20">
+    <main class="w-4/5 mx-auto my-12 md:my-20 ">
 
         <!-- featured bikes section -->
 
         <section class="text-center font-semibold">
-            <h1 class="text-5xl ">Featured Bikes In This Year</h1>
+            <h1 class="text-5xl ">Featured Bikes <span class="text-bike-primary">In This Year</span></h1>
             <p class="text-[#E76F51] text-sm pt-3 pb-1">Best bike collection</p>
             <hr class="w-[5.186%] mx-auto border-[#E76F51]">
-            <div class="grid grid-cols-1 lg:grid-cols-3 mt-11">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-11">
                 <div>
                     <img src="images/others/feature-bike.png" alt="featured bike">
                 </div>
@@ -158,8 +158,8 @@
 
         <!-- latest news section -->
 
-        <section class="text-center font-semibold my-20">
-            <h1 class="text-5xl">Latest News</h1>
+        <section class="text-center font-semibold my-10 md:my-20">
+            <h1 class="text-5xl">Latest <span class="text-bike-primary">News</span></h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between gap-6 mt-11">
                 <div class="card  bg-base-100 shadow-lg p-5">
                     <figure>
@@ -212,11 +212,11 @@
         <!-- happy clients says -->
 
         <section class="text-center font-semibold">
-            <h1 class="text-5xl">Happy <span class="text-bike-primary">Clients says</span></h1>
+            <h1 class="text-5xl">Happy <span class="text-bike-primary">Clients Says</span></h1>
             <div class="grid grid-cols-1 lg:grid-cols-3 justify-between gap-10 mt-11">
                 <div class="card bg-base-100 shadow-lg border-orange-400 border-x-2 py-10 px-12 lg:px-8">
                     <figure>
-                        <img src="images/others/user-1.png" alt="Shoes" class="w-[10rem] h-[10rem] rounded-[10rem]" />
+                        <img src="images/others/user-1.png" alt="Shoes" class="w-36" />
                     </figure>
                     <div class="grid justify-center text-left">
                         <p class="font-medium text-[#878686] leading-8 pt-5  pb-2 text-center">Slate helps you see how
@@ -235,7 +235,7 @@
                 </div>
                 <div class="card bg-base-100 shadow-lg border-orange-400 border-x-2 py-10 px-12 lg:px-8">
                     <figure>
-                        <img src="images/others/user-2.png" alt="Shoes" class="w-[10rem] h-[10rem] rounded-[10rem]" />
+                        <img src="images/others/user-2.png" alt="Shoes" class="w-36" />
                     </figure>
                     <div class="grid justify-center text-left">
                         <p class="font-medium text-[#878686] leading-8 pt-5  pb-2 text-center">Slate helps you see how
@@ -280,7 +280,7 @@
                 </div>
                 <div class="card bg-base-100 shadow-lg border-orange-400 border-x-2 py-10 px-12 lg:px-8">
                     <figure>
-                        <img src="images/others/user-3.png" alt="Shoes" class="w-[10rem] h-[10rem] rounded-[10rem]" />
+                        <img src="images/others/user-3.png" alt="Shoes" class="w-36" />
                     </figure>
                     <div class="grid justify-center text-left">
                         <p class="font-medium text-[#878686] leading-8 pt-5  pb-2 text-center">Slate helps you see how
@@ -302,11 +302,11 @@
 
         <!-- frequently asked questions section -->
 
-        <section class="text-center font-semibold mt-20">
+        <section class="text-center font-semibold mt-10 md:mt-20">
             <h1 class="text-5xl"><span class="text-blue-500">frequently</span> Asked <span
                     class="text-emerald-300">Questions</span></h1>
             <div class="grid grid-cols-1 justify-center lg:grid-cols-2 items-center mt-11 gap-8">
-                <div>
+                <div class="justify-self-center">
                     <img src="images/others/faq.png" alt="question mark icons">
                 </div>
                 <div class="grid grid-cols-1 gap-6">
